@@ -18,50 +18,55 @@ Url Base:
 
 
 
-** Mostrar lista de carros **
-----
+### Mostrar lista de carros 
+
   Retorna dados json sobre todos os carros disponíveis.
 
-* ** Rota **
+* Rota
 
-  /carro
-
-* ** Método: **
+```bash
+/carro
+```
+  
+* Método: 
 
   `GET`
   
-* ** Parâmetros de URL **
+* Parâmetros de URL
  
    Nenhum
 
-* ** Parâmetros de dados **
+* Parâmetros de dados 
 
   Nenhum
 
 
-  ** Adicionar um veículo **
-----
+
+
+### Adicionar um veículo 
   
-* ** Rota **
+*  Rota 
 
-  /carro
+```bash
+/carro
+```
 
-* ** Método: **
+*  Método: 
 
   `POST`
   
-* ** Parâmetros de URL **
+*  Parâmetros de URL 
  
    Nenhum
 
-* ** Parâmetros de dados **
+* Parâmetros de dados 
 
-`` `json
+~~~Json
 {
     "nome": "xxxx",
     "valor": "0000"
 }
-`` `
+~~~
 
 
 
@@ -75,15 +80,6 @@ Url Base:
 
 
 
-* ** Chamada de amostra: **
 
-  `` `javascript
-    $ .ajax ({
-      url: "/ users / 1",
-      dataType: "json",
-      digite: "GET",
-      sucesso: função (r) {
-        console.log (r);
-      }
-    });
-  `` `
+
+
