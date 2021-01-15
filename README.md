@@ -16,11 +16,13 @@ Url Base:
 ```
 
 
+<br>
+<br>
+<br>
 
+## Mostrar lista de carros 
 
-### Mostrar lista de carros 
-
-  Retorna dados json sobre todos os carros disponíveis.
+  Retorna dados Json sobre todos os carros disponíveis.
 
 * Rota
 
@@ -41,9 +43,11 @@ Url Base:
   Nenhum
 
 
+<br>
+<br>
+<br>
 
-
-### Adicionar um veículo 
+## Adicionar um veículo 
   
 *  Rota 
 
@@ -65,6 +69,123 @@ Url Base:
 {
     "nome": "xxxx",
     "valor": "0000"
+}
+~~~
+
+<br>
+<br>
+<br>
+
+## Alterar um veículo 
+  
+*  Rota 
+
+```bash
+/carro
+```
+
+*  Método: 
+
+  `PUT`
+  
+*  Parâmetros de URL 
+ 
+   Nenhum
+
+* Parâmetros de dados 
+
+~~~Json
+{
+    "id": "0",
+    "nome": "xxxxxx",
+    "valor": "000"
+}
+~~~
+
+<br>
+<br>
+<br>
+
+## Removendo um veículo 
+  
+*  Rota 
+
+```bash
+/carro
+```
+
+*  Método: 
+
+  `DELETE`
+  
+*  Parâmetros de URL 
+ 
+   Nenhum
+
+* Parâmetros de dados 
+
+~~~Json
+{
+    "id": "0"
+}
+~~~
+
+<br>
+<br>
+<br>
+
+## Alugar um veículo 
+  
+*  Rota 
+
+```bash
+/alugar
+```
+
+*  Método: 
+
+  `PUT`
+  
+*  Parâmetros de URL 
+ 
+   Nenhum
+
+* Parâmetros de dados 
+
+~~~Json
+{
+    "id": "0",
+    "nome": "xxxxxx",
+	"telefone": "0000-00096"
+}
+~~~
+
+
+<br>
+<br>
+<br>
+
+## Devolver um veículo 
+  
+*  Rota 
+
+```bash
+/devolver
+```
+
+*  Método: 
+
+  `PUT`
+  
+*  Parâmetros de URL 
+ 
+   Nenhum
+
+* Parâmetros de dados 
+
+~~~Json
+{
+   "id": "0"
 }
 ~~~
 
